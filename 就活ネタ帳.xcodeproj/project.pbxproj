@@ -13,7 +13,6 @@
 		178BA7241B32E81B00FA091F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178BA7231B32E81B00FA091F /* Images.xcassets */; };
 		178BA7271B32E81B00FA091F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 178BA7251B32E81B00FA091F /* LaunchScreen.xib */; };
 		178BA7331B32E81B00FA091F /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178BA7321B32E81B00FA091F /* _____Tests.swift */; };
-		178BA73F1B330F5C00FA091F /* 就活　ラベル.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA73C1B330F5C00FA091F /* 就活　ラベル.png */; };
 		178BA7401B330F5C00FA091F /* 就活2.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA73D1B330F5C00FA091F /* 就活2.png */; };
 		178BA7411B330F5C00FA091F /* 就活3 のコピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA73E1B330F5C00FA091F /* 就活3 のコピー.png */; };
 		178BA7471B3310B600FA091F /* 就活4.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA7421B3310B600FA091F /* 就活4.png */; };
@@ -21,7 +20,12 @@
 		178BA7491B3310B600FA091F /* 就活6.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA7441B3310B600FA091F /* 就活6.png */; };
 		178BA74A1B3310B600FA091F /* 就活7.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA7451B3310B600FA091F /* 就活7.png */; };
 		178BA74B1B3310B600FA091F /* 就活8.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA7461B3310B600FA091F /* 就活8.png */; };
-		178BA8291B34748400FA091F /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 178BA8281B34748400FA091F /* background.png */; };
+		1793FCB01B3BEB0C000E0CD5 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793FCAF1B3BEB0C000E0CD5 /* ViewController2.swift */; };
+		1793FCB41B3BEE8A000E0CD5 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793FCB31B3BEE8A000E0CD5 /* ViewController3.swift */; };
+		1793FCB61B3BEEC2000E0CD5 /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793FCB51B3BEEC2000E0CD5 /* ViewController4.swift */; };
+		1793FCB81B3BF34C000E0CD5 /* 就活１.png in Resources */ = {isa = PBXBuildFile; fileRef = 1793FCB71B3BF34C000E0CD5 /* 就活１.png */; };
+		1793FCBE1B3C0E89000E0CD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1793FCBD1B3C0E89000E0CD5 /* Images.xcassets */; };
+		1793FCC21B3C1F06000E0CD5 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1793FCC11B3C1F06000E0CD5 /* ViewControllerHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,6 @@
 		178BA72C1B32E81B00FA091F /* 就活ネタ帳Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "就活ネタ帳Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		178BA7311B32E81B00FA091F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		178BA7321B32E81B00FA091F /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
-		178BA73C1B330F5C00FA091F /* 就活　ラベル.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活　ラベル.png"; sourceTree = SOURCE_ROOT; };
 		178BA73D1B330F5C00FA091F /* 就活2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活2.png"; sourceTree = SOURCE_ROOT; };
 		178BA73E1B330F5C00FA091F /* 就活3 のコピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活3 のコピー.png"; sourceTree = SOURCE_ROOT; };
 		178BA7421B3310B600FA091F /* 就活4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活4.png"; sourceTree = "<group>"; };
@@ -53,7 +56,12 @@
 		178BA7441B3310B600FA091F /* 就活6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活6.png"; sourceTree = "<group>"; };
 		178BA7451B3310B600FA091F /* 就活7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活7.png"; sourceTree = "<group>"; };
 		178BA7461B3310B600FA091F /* 就活8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活8.png"; sourceTree = "<group>"; };
-		178BA8281B34748400FA091F /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "../../../Documents/Life is Tech/background.png"; sourceTree = "<group>"; };
+		1793FCAF1B3BEB0C000E0CD5 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		1793FCB31B3BEE8A000E0CD5 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		1793FCB51B3BEEC2000E0CD5 /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		1793FCB71B3BF34C000E0CD5 /* 就活１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "就活１.png"; sourceTree = SOURCE_ROOT; };
+		1793FCBD1B3C0E89000E0CD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1793FCC11B3C1F06000E0CD5 /* ViewControllerHome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,13 +103,13 @@
 		178BA7191B32E81B00FA091F /* 就活ネタ帳 */ = {
 			isa = PBXGroup;
 			children = (
-				178BA8281B34748400FA091F /* background.png */,
+				1793FCBD1B3C0E89000E0CD5 /* Images.xcassets */,
+				1793FCB71B3BF34C000E0CD5 /* 就活１.png */,
 				178BA7421B3310B600FA091F /* 就活4.png */,
 				178BA7431B3310B600FA091F /* 就活5.png */,
 				178BA7441B3310B600FA091F /* 就活6.png */,
 				178BA7451B3310B600FA091F /* 就活7.png */,
 				178BA7461B3310B600FA091F /* 就活8.png */,
-				178BA73C1B330F5C00FA091F /* 就活　ラベル.png */,
 				178BA73D1B330F5C00FA091F /* 就活2.png */,
 				178BA73E1B330F5C00FA091F /* 就活3 のコピー.png */,
 				178BA71C1B32E81B00FA091F /* AppDelegate.swift */,
@@ -110,6 +118,10 @@
 				178BA7231B32E81B00FA091F /* Images.xcassets */,
 				178BA7251B32E81B00FA091F /* LaunchScreen.xib */,
 				178BA71A1B32E81B00FA091F /* Supporting Files */,
+				1793FCAF1B3BEB0C000E0CD5 /* ViewController2.swift */,
+				1793FCB31B3BEE8A000E0CD5 /* ViewController3.swift */,
+				1793FCB51B3BEEC2000E0CD5 /* ViewController4.swift */,
+				1793FCC11B3C1F06000E0CD5 /* ViewControllerHome.swift */,
 			);
 			path = "就活ネタ帳";
 			sourceTree = "<group>";
@@ -220,7 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				178BA7401B330F5C00FA091F /* 就活2.png in Resources */,
-				178BA8291B34748400FA091F /* background.png in Resources */,
 				178BA7221B32E81B00FA091F /* Main.storyboard in Resources */,
 				178BA7471B3310B600FA091F /* 就活4.png in Resources */,
 				178BA7481B3310B600FA091F /* 就活5.png in Resources */,
@@ -228,9 +239,10 @@
 				178BA74A1B3310B600FA091F /* 就活7.png in Resources */,
 				178BA7271B32E81B00FA091F /* LaunchScreen.xib in Resources */,
 				178BA7491B3310B600FA091F /* 就活6.png in Resources */,
+				1793FCBE1B3C0E89000E0CD5 /* Images.xcassets in Resources */,
 				178BA7241B32E81B00FA091F /* Images.xcassets in Resources */,
-				178BA73F1B330F5C00FA091F /* 就活　ラベル.png in Resources */,
 				178BA74B1B3310B600FA091F /* 就活8.png in Resources */,
+				1793FCB81B3BF34C000E0CD5 /* 就活１.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +260,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1793FCB41B3BEE8A000E0CD5 /* ViewController3.swift in Sources */,
+				1793FCC21B3C1F06000E0CD5 /* ViewControllerHome.swift in Sources */,
+				1793FCB61B3BEEC2000E0CD5 /* ViewController4.swift in Sources */,
+				1793FCB01B3BEB0C000E0CD5 /* ViewController2.swift in Sources */,
 				178BA71F1B32E81B00FA091F /* ViewController.swift in Sources */,
 				178BA71D1B32E81B00FA091F /* AppDelegate.swift in Sources */,
 			);
@@ -445,6 +461,7 @@
 				178BA7381B32E81B00FA091F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		178BA7391B32E81B00FA091F /* Build configuration list for PBXNativeTarget "就活ネタ帳Tests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +470,7 @@
 				178BA73B1B32E81B00FA091F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
