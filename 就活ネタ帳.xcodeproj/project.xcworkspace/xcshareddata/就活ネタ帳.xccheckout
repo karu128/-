@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>98B7993B-9D62-400A-9A45-6B437C05D282</string>
 	<key>IDESourceControlProjectName</key>
-	<string>就活ネタ帳</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>A459A14EDAB6D54691E8D4668F301C946594C91B</key>
 		<string>https://github.com/karu128/-.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>就活ネタ帳.xcodeproj</string>
+	<string>就活ネタ帳.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>A459A14EDAB6D54691E8D4668F301C946594C91B</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>A459A14EDAB6D54691E8D4668F301C946594C91B</string>
 			<key>IDESourceControlWCCName</key>
-			<string>%E5%B0%B1%E6%B4%BB%E3%83%8D%E3%82%BF%E5%B8%B3</string>
+			<string>Jobhunting%20ver2</string>
 		</dict>
 	</array>
 </dict>
