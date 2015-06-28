@@ -10,9 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var box=0
     override func viewDidLoad() {
         super.viewDidLoad()
-}
+    }
+    @IBAction func tapBtn1(sender: AnyObject) {
+    let image = UIImage(named: "job101.png") as UIImage!
+    sender.setImage(image, forState: .Normal)
+    box = sender.tag
+        println(String(box))
+    }
+    
 }
 
 

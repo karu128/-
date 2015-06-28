@@ -55,6 +55,7 @@
 		1793FD021B3D3E57000E0CD5 /* 29.png in Resources */ = {isa = PBXBuildFile; fileRef = 1793FCE21B3D3E57000E0CD5 /* 29.png */; };
 		1793FD031B3D3E57000E0CD5 /* 30.png in Resources */ = {isa = PBXBuildFile; fileRef = 1793FCE31B3D3E57000E0CD5 /* 30.png */; };
 		1793FD041B3D3E57000E0CD5 /* 31.png in Resources */ = {isa = PBXBuildFile; fileRef = 1793FCE41B3D3E57000E0CD5 /* 31.png */; };
+		17D411661B3F98D9004E30FF /* job101.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D411651B3F98D8004E30FF /* job101.png */; };
 		4656C8041B3C689E00E935E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4656C8031B3C689E00E935E3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -121,6 +122,7 @@
 		1793FCE21B3D3E57000E0CD5 /* 29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29.png; sourceTree = "<group>"; };
 		1793FCE31B3D3E57000E0CD5 /* 30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30.png; sourceTree = "<group>"; };
 		1793FCE41B3D3E57000E0CD5 /* 31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 31.png; sourceTree = "<group>"; };
+		17D411651B3F98D8004E30FF /* job101.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = job101.png; sourceTree = "<group>"; };
 		4656C8031B3C689E00E935E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -163,6 +165,7 @@
 		178BA7191B32E81B00FA091F /* 就活ネタ帳 */ = {
 			isa = PBXGroup;
 			children = (
+				17D411651B3F98D8004E30FF /* job101.png */,
 				1793FCC51B3D3E57000E0CD5 /* 1.png */,
 				1793FCC61B3D3E57000E0CD5 /* 2.png */,
 				1793FCC71B3D3E57000E0CD5 /* 3.png */,
@@ -339,6 +342,7 @@
 				1793FCF21B3D3E57000E0CD5 /* 14.png in Resources */,
 				1793FCFE1B3D3E57000E0CD5 /* 25.png in Resources */,
 				1793FCE71B3D3E57000E0CD5 /* 3.png in Resources */,
+				17D411661B3F98D9004E30FF /* job101.png in Resources */,
 				4656C8041B3C689E00E935E3 /* Images.xcassets in Resources */,
 				1793FCF31B3D3E57000E0CD5 /* 15.png in Resources */,
 				1793FCEF1B3D3E57000E0CD5 /* 11.png in Resources */,

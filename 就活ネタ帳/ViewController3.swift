@@ -9,7 +9,9 @@
 import UIKit
 
 class ViewController3: UIViewController {
+    @IBOutlet weak var myTextView1: UITextView!
 
+    @IBOutlet weak var myTextView2: UITextView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

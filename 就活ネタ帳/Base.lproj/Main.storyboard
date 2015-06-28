@@ -415,10 +415,13 @@
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tableView" destination="MbL-NE-Hh6" id="NWn-Wg-Pba"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-67.5" y="197.5"/>
+            <point key="canvasLocation" x="-67.5" y="230.5"/>
         </scene>
         <!--ViewController-->
         <scene sceneID="aS7-Se-e2x">
@@ -448,11 +451,14 @@
                                     <segue destination="7Ym-YV-OOC" kind="modal" modalTransitionStyle="crossDissolve" id="ZBA-va-toP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT9-uL-jky">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT9-uL-jky">
                                 <rect key="frame" x="-5" y="51" width="178" height="246"/>
                                 <state key="normal" title="Button" image="就活１.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapBtn1:" destination="Qst-Nm-d8u" eventType="touchUpInside" id="9Ka-We-A8S"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i74-q5-JvS">
                                 <rect key="frame" x="244" y="146" width="131" height="180"/>
@@ -472,11 +478,14 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DD9-qb-EzY">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DD9-qb-EzY">
                                 <rect key="frame" x="128" y="210" width="188" height="269"/>
                                 <state key="normal" title="Button" image="就活3 のコピー.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="tapBtn1:" destination="Qst-Nm-d8u" eventType="touchUpInside" id="HcT-fg-hgz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dc3-3h-M1V">
                                 <rect key="frame" x="16" y="334" width="156" height="219"/>
@@ -515,7 +524,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VAu-tL-3Pg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="506.5" y="197.5"/>
+            <point key="canvasLocation" x="573.5" y="171.5"/>
         </scene>
         <!--View Controller2-->
         <scene sceneID="VP7-TH-xdI">
@@ -529,13 +538,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YpG-mS-ATG">
-                                <rect key="frame" x="111" y="355" width="239" height="220"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U6I-yj-CuM">
                                 <rect key="frame" x="170" y="611" width="35" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -547,13 +549,23 @@
                                     <segue destination="tck-d9-g2x" kind="modal" modalTransitionStyle="crossDissolve" id="iZi-Yj-ta8"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n3g-wx-akK">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="文字を入力してください" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n3g-wx-akK">
                                 <rect key="frame" x="111" y="299" width="239" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="tapReturnKey:" destination="7Ym-YV-OOC" eventType="editingDidEndOnExit" id="rqM-WU-NTs"/>
+                                </connections>
                             </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YpG-mS-ATG">
+                                <rect key="frame" x="111" y="355" width="239" height="220"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
+                            </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="場所：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBh-Ms-LdW">
                                 <rect key="frame" x="38" y="303" width="51" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -568,9 +580,13 @@
                             </label>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="A8s-Mm-k6q">
                                 <rect key="frame" x="25" y="94" width="325" height="162"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <date key="date" timeIntervalSinceReferenceDate="456406639.73241001">
                                     <!--2015-06-19 11:37:19 +0000-->
                                 </date>
+                                <connections>
+                                    <action selector="changeDatePicker:" destination="7Ym-YV-OOC" eventType="valueChanged" id="9Ta-ej-TqW"/>
+                                </connections>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6c8-Jz-gEm">
                                 <rect key="frame" x="30" y="18" width="57" height="50"/>
@@ -587,6 +603,9 @@
                         <color key="backgroundColor" red="0.092228377700000003" green="0.032039220030000003" blue="0.47991635100000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myTextView" destination="YpG-mS-ATG" id="1Rb-ZH-MGl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="H4F-dx-pco" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -620,14 +639,14 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QXt-Zd-Dr8">
                                 <rect key="frame" x="111" y="348" width="239" height="220"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Optima-Bold" family="Optima" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" returnKeyType="done"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="頑張った点：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97x-5A-59s">
                                 <rect key="frame" x="10" y="89" width="111" height="21"/>
@@ -656,6 +675,10 @@
                         <color key="backgroundColor" red="0.092228377700000003" green="0.032039220030000003" blue="0.47991635100000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="myTextView1" destination="jYK-Ve-IWK" id="rLb-By-0YL"/>
+                        <outlet property="myTextView2" destination="QXt-Zd-Dr8" id="pRk-T9-jwe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KRC-dj-JGZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -937,9 +960,9 @@
         <image name="就活１.png" width="595" height="842"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="e9l-sA-X0i"/>
         <segue reference="RQb-I4-FEf"/>
+        <segue reference="e9l-sA-X0i"/>
         <segue reference="ZBA-va-toP"/>
-        <segue reference="Q6h-h7-Ksz"/>
+        <segue reference="iZi-Yj-ta8"/>
     </inferredMetricsTieBreakers>
 </document>
